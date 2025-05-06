@@ -8,7 +8,7 @@
       </Id>
       <DisplayName>Navigation</DisplayName>
       <Name>Navigation</Name>
-	  <StrictSearch>true</StrictSearch>
+	    <StrictSearch>true</StrictSearch>
       <ItemIds>	  
         <string>Cockpit/DBSmallBlockFighterCockpit</string>
         <string>Cockpit/LargeBlockCockpitSeat</string>
@@ -24,22 +24,24 @@
 		
         <string>LandingGear/LargeBlockLandingGear</string>
         
-		<string>Parachute/LgParachute</string>
+		    <string>Parachute/LgParachute</string>
 		
-		<string>Gyro/LargeBlockGyro</string>
+		    <string>Gyro/LargeBlockGyro</string>
 		
         <string>JumpDrive/LargeJumpDrive</string>
         <string>JumpDrive/LargeBlockBasicHyperDrive</string>   
         <string>JumpDrive/SmallBlockBasicMicroDrive</string>   
 		
-        <string>Thrust/LargeBlockLargeAtmosphericThrust</string>  
-        <string>Thrust/LargeBlockSmallAtmosphericThrust</string>  
+        <string>Thrust/LargeBlockLargeAtmosphericThrust</string>
+        <string>Thrust/LargeBlockLargeAtmosphericThrustSciFi</string>
+        <string>Thrust/LargeBlockSmallAtmosphericThrust</string>
+        <string>Thrust/LargeBlockSmallAtmosphericThrustSciFi</string>
 		
-        <string>Thrust/LargeBlockLargeHydrogenThrust</string>  
-        <string>Thrust/LargeBlockSmallHydrogenThrust</string> 
+        <string>Thrust/LargeBlockLargeHydrogenThrust</string>
+        <string>Thrust/LargeBlockSmallHydrogenThrust</string>
 		
-        <string>Thrust/LargeBlockLargeThrust</string>  
-        <string>Thrust/LargeBlockSmallThrust</string> 
+        <string>Thrust/LargeBlockLargeThrust</string>
+        <string>Thrust/LargeBlockSmallThrust</string>
       </ItemIds>
     </Category>
   </CategoryClasses>

@@ -2,7 +2,8 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <BlockVariantGroups>
 
-        <BlockVariantGroup> <!-- EWEFighterCockpitGroup -->
+        <!-- EWEFighterCockpitGroup -->
+        <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEFighterCockpitGroup" />
             <Icon>Textures\GUI\Icons\Cubes\FighterCockpit.dds</Icon>
             <DisplayName>Fighter Cockpits</DisplayName>
@@ -16,7 +17,8 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <BlockVariantGroup> <!-- EWECockpitGroup -->
+        <!-- EWECockpitGroup -->
+        <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWECockpitGroup" />
             <Icon>Textures\GUI\Icons\Cubes\CockpitSmall.dds</Icon>
             <DisplayName>Cockpits</DisplayName>
@@ -36,7 +38,8 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <BlockVariantGroup> <!-- EWEIndustrialCockpitGroup -->
+        <!-- EWEIndustrialCockpitGroup -->
+        <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEIndustrialCockpitGroup" />
             <Icon>Textures\GUI\Icons\Cubes\CockpitSmall.dds</Icon>
             <DisplayName>Cockpits</DisplayName>
@@ -56,7 +59,8 @@
 			</Blocks>
         </BlockVariantGroup>
 
-        <BlockVariantGroup> <!-- EWEGyroscopeGroup -->
+        <!-- EWEGyroscopeGroup -->
+        <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEGyroscopeGroup" />
             <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
             <DisplayName>DisplayName_Block_Gyroscope</DisplayName>
@@ -80,7 +84,8 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <BlockVariantGroup> <!-- EWEJumpDriveeGroup -->
+        <!-- EWEJumpDriveeGroup -->
+        <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEJumpDriveGroup" />
 			<Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
             <DisplayName>Jump Drives</DisplayName>
@@ -91,7 +96,8 @@
                 <Block Type="MyObjectBuilder_JumpDrive" Subtype="LargeBlockEliteJumpDrive" />
             </Blocks>
         </BlockVariantGroup>
-        <BlockVariantGroup> <!-- EWEHyperDriveGroup -->
+        <!-- EWEHyperDriveGroup -->
+        <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEHyperDriveGroup" />
 			<Icon>Textures\darth_biomech\GUI\hyperDrive.dds</Icon>
             <DisplayName>Hyper Drives</DisplayName>
@@ -102,7 +108,8 @@
                 <Block Type="MyObjectBuilder_JumpDrive" Subtype="LargeBlockEliteHyperDrive" />
             </Blocks>
         </BlockVariantGroup>
-        <BlockVariantGroup> <!-- EWEMicroDriveGroup -->
+        <!-- EWEMicroDriveGroup -->
+        <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWEMicroDriveGroup" />
             <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
             <DisplayName>Micro Drives</DisplayName>
@@ -113,10 +120,10 @@
                 <Block Type="MyObjectBuilder_JumpDrive" Subtype="SmallBlockEliteMicroDrive" />
             </Blocks>
         </BlockVariantGroup>
-
-        <BlockVariantGroup> <!-- EWESmallThrusterAtmoGroup -->
+        <!-- EWESmallThrusterAtmoGroup -->
+        <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWESmallThrusterAtmoGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterLargeLarge.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterSmall.dds</Icon>
             <DisplayName>Small Atmospheric Thrusters</DisplayName>
             <Description>Description_AtmosphericThrust</Description>
             <Blocks>
@@ -129,7 +136,24 @@
                 <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockEliteSmallAtmosphericThrust" />
             </Blocks>
         </BlockVariantGroup>
-        <BlockVariantGroup> <!-- EWELargeThrusterAtmoGroup -->
+        <!-- EWESmallThrusterAtmoGroupSciFi -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWESmallThrusterAtmoGroupSciFi" />
+            <Icon>Textures\GUI\Icons\Cubes\Small_AtmosphericThrusterSmall_SciFi.dds</Icon>
+            <DisplayName>Small SciFi Atmospheric Thrusters</DisplayName>
+            <Description>Description_AtmosphericThrust</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallAtmosphericThrustSciFi" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockAdvancedSmallAtmosphericThrustSciFi" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockEliteSmallAtmosphericThrustSciFi" />
+
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallAtmosphericThrustSciFi" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockAdvancedSmallAtmosphericThrustSciFi" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockEliteSmallAtmosphericThrustSciFi" />
+            </Blocks>
+        </BlockVariantGroup>
+        <!-- EWELargeThrusterAtmoGroup -->
+        <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWELargeThrusterAtmoGroup" />
             <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterLargeLarge.dds</Icon>
             <DisplayName>Large Atmospheric Thrusters</DisplayName>
@@ -144,9 +168,24 @@
                 <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockEliteLargeAtmosphericThrust" />
             </Blocks>
         </BlockVariantGroup>
+        <!-- EWELargeThrusterAtmoGroupSciFi -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWELargeThrusterAtmoGroupSciFi" />
+            <Icon>Textures\GUI\Icons\Cubes\Large_AtmosphericThrusterLarge_SciFi.dds</Icon>
+            <DisplayName>Large SciFi Atmospheric Thrusters</DisplayName>
+            <Description>Description_AtmosphericThrust</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeAtmosphericThrustSciFi" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockAdvancedLargeAtmosphericThrustSciFi" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockEliteLargeAtmosphericThrustSciFi" />
 
-
-        <BlockVariantGroup> <!-- EWESmallThrusterHydroGroup -->
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeAtmosphericThrustSciFi" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockAdvancedLargeAtmosphericThrustSciFi" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockEliteLargeAtmosphericThrustSciFi" />
+            </Blocks>
+        </BlockVariantGroup>
+        <!-- EWESmallThrusterHydroGroup -->
+        <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWESmallThrusterHydroGroup" />
             <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
             <DisplayName>Small Hydrogen Thrusters</DisplayName>
@@ -161,7 +200,8 @@
                 <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockEliteSmallHydrogenThrust" />
             </Blocks>
         </BlockVariantGroup>
-        <BlockVariantGroup> <!-- EWELargeThrusterHydroGroup -->
+        <!-- EWELargeThrusterHydroGroup -->
+        <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWELargeThrusterHydroGroup" />
             <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
             <DisplayName>Large Hydrogen Thrusters</DisplayName>
@@ -176,8 +216,8 @@
                 <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockEliteLargeHydrogenThrust" />
             </Blocks>
         </BlockVariantGroup>
-		
-        <BlockVariantGroup> <!-- EWESmallThrusterIonGroup -->
+		<!-- EWESmallThrusterIonGroup -->
+        <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWESmallThrusterIonGroup" />
             <Icon>Textures\GUI\Icons\Cubes\thrust_large.dds</Icon>
             <DisplayName>Small Ion Thrusters</DisplayName>
@@ -192,7 +232,8 @@
                 <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockEliteSmallThrust" />
             </Blocks>
         </BlockVariantGroup>
-        <BlockVariantGroup> <!-- EWELargeThrusterIonGroup -->
+        <!-- EWELargeThrusterIonGroup -->
+        <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EWELargeThrusterIonGroup" />
             <Icon>Textures\GUI\Icons\Cubes\thrust_large.dds</Icon>
             <DisplayName>Large Ion Thrusters</DisplayName>
